@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Route Finder</title>
+  <link rel="stylesheet" href="style.css" />
+  
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+
+</head>
+<body>
+  <h1>Smart Route Finder</h1>
+
+  <div id="map"></div>
+
+<div id="info">
+  <p><strong>Start Point:</strong> <span id="start"></span></p>
+  <p><strong>End Point:</strong> <span id="end"></span></p>
+  <p><strong>Steps:</strong> <span id="steps"></span></p>
+  <p><strong>Total Distance:</strong> <span id="distance"></span></p>
+</div>
+
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+
+  <script src="dijkstra.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
